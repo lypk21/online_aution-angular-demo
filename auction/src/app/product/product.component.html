@@ -1,0 +1,17 @@
+<div class="row">
+  <div *ngFor="let product of products | async" class="col-sm-4 col-md-4 col-lg-4 mt-2">
+    <div class="card" >
+      <img class="card-img-top" src="http://placehold.it/300x200" alt="Card image cap">
+      <div class="card-body">
+        <p style="float:right;">{{product.price}}</p>
+        <h5 class="card-title" [routerLink]="['/product',product.id]">{{product.title}}</h5>
+        <p class="card-text">{{product.desc}}</p>
+      </div>
+      <div class="card-footer">
+        <app-stars [rating]="product.rating"></app-stars>
+      </div>
+    </div>
+  </div>
+</div>
+
+

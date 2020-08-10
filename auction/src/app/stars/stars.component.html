@@ -1,0 +1,11 @@
+<p>
+  <span class="fa"
+        *ngFor="let star of stars; let i=index"
+        (click)="clickStar(i + 1)"
+        [class.fa-star]="star == 1"
+        [class.fa-star-half-full]="star == 2"
+        [class.fa-star-o]="star == 0"
+        >
+  </span>
+  <span class="ml-3">{{rating}}</span>
+</p>
