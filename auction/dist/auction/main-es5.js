@@ -2314,7 +2314,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! /Users/liuyingping/Desktop/www/angular/auction/src/main.ts */
+    /*! /Users/liuyingping/Desktop/www/angular/online_aution-angular-demo/auction/src/main.ts */
     "./src/main.ts");
     /***/
   }

@@ -539,9 +539,9 @@ module.exports = exported;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/liuyingping/Desktop/www/angular/auction/src/styles.css */"./src/styles.css");
-__webpack_require__(/*! /Users/liuyingping/Desktop/www/angular/auction/node_modules/bootstrap/dist/css/bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
-module.exports = __webpack_require__(/*! /Users/liuyingping/Desktop/www/angular/auction/node_modules/font-awesome/css/font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
+__webpack_require__(/*! /Users/liuyingping/Desktop/www/angular/online_aution-angular-demo/auction/src/styles.css */"./src/styles.css");
+__webpack_require__(/*! /Users/liuyingping/Desktop/www/angular/online_aution-angular-demo/auction/node_modules/bootstrap/dist/css/bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
+module.exports = __webpack_require__(/*! /Users/liuyingping/Desktop/www/angular/online_aution-angular-demo/auction/node_modules/font-awesome/css/font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
 
 
 /***/ })
