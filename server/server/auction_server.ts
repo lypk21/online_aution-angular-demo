@@ -33,7 +33,7 @@ app.get('/products/:id/comments', function (req, res) {
     return res.json(comments.filter((comment) => comment.productId == req.params.id));
 })
 
-const server = app.listen(8000, "localhost", (req, res) => {
+const server = app.listen(8000, "objective-dubinsky-57267d.netlify.app", (req, res) => {
     console.log("server start ...")
 })
 
