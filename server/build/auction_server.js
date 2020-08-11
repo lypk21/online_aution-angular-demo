@@ -36,7 +36,7 @@ app.get('/products/:id', function (req, res) {
 app.get('/products/:id/comments', function (req, res) {
     return res.json(comment_1.comments.filter(function (comment) { return comment.productId == req.params.id; }));
 });
-var server = app.listen(8000, "objective-dubinsky-57267d.netlify.app", function (req, res) {
+var server = app.listen(8000, "agitated-swirles-00fff9.netlify.app", function (req, res) {
     console.log("server start ...");
 });
 var subscriptions = new Map();
